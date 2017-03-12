@@ -16,6 +16,7 @@
 		C549D3841E75E78E0088F15D /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D3831E75E78E0088F15D /* ItemsViewController.swift */; };
 		C549D3861E75E82C0088F15D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D3851E75E82C0088F15D /* Item.swift */; };
 		C549D3881E75EB4E0088F15D /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D3871E75EB4E0088F15D /* ItemStore.swift */; };
+		C549D38A1E75FD2E0088F15D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D3891E75FD2E0088F15D /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C549D3831E75E78E0088F15D /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewController.swift; path = ../ItemsViewController.swift; sourceTree = "<group>"; };
 		C549D3851E75E82C0088F15D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C549D3871E75EB4E0088F15D /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		C549D3891E75FD2E0088F15D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				C549D3831E75E78E0088F15D /* ItemsViewController.swift */,
+				C549D3891E75FD2E0088F15D /* ItemCell.swift */,
 				C549D3851E75E82C0088F15D /* Item.swift */,
+				C549D3591E75E6FA0088F15D /* Main.storyboard */,
 				C549D3871E75EB4E0088F15D /* ItemStore.swift */,
 				C549D3551E75E6F90088F15D /* AppDelegate.swift */,
-				C549D3591E75E6FA0088F15D /* Main.storyboard */,
 				C549D35C1E75E6FA0088F15D /* Assets.xcassets */,
 				C549D35E1E75E6FB0088F15D /* LaunchScreen.storyboard */,
 				C549D3611E75E6FB0088F15D /* Info.plist */,
@@ -269,6 +272,7 @@
 				C549D3861E75E82C0088F15D /* Item.swift in Sources */,
 				C549D3881E75EB4E0088F15D /* ItemStore.swift in Sources */,
 				C549D3561E75E6F90088F15D /* AppDelegate.swift in Sources */,
+				C549D38A1E75FD2E0088F15D /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
