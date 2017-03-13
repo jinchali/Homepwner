@@ -61,6 +61,7 @@ class ItemsViewController: UITableViewController {
         cell.serialNumberLabel.text = item.serialNumber
         cell.valueLabel.text = "$\(item.valueInDollars)"
         
+        
         return cell
     }
     
@@ -81,9 +82,10 @@ class ItemsViewController: UITableViewController {
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
             ac.addAction(cancelAction)
             
-            let deleteAction = UIAlertAction(title: "Delete",
+            let deleteAction = UIAlertAction(title: "Remove",
                                              style: .destructive,
-                                             handler: { (action) -> Void in
+                                             handler: {
+            (action) -> Void in
             //Remove the item from the store
             self.itemStore.removeItem(item)
             
